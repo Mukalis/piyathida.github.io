@@ -146,6 +146,12 @@ label #cancel {
     border-radius: 5px;
 }
 
+.mail img:hover,
+.facebook img:hover,
+.line img:hover {
+    opacity: .7;
+}
+
 /** ====================================================================== **/
 /** END SOCIAL LINKS **/
 /** ====================================================================== **/
@@ -294,8 +300,17 @@ label #cancel {
         line-height: 112px;
     }
 
-    .button {
+    .arrow {
         display: none;
+    }
+
+    .button {
+        position: sticky;
+        top: 40vh;
+    }
+
+    .social-links {
+        margin-left: 10px;
     }
 }
 
@@ -337,6 +352,10 @@ label #cancel {
     .pic img {
         margin: 1rem 0 0 19%
     }
+
+    .social-links {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 667px) {
@@ -348,6 +367,15 @@ label #cancel {
 @media (max-width: 600px) {
     .pic img {
         margin: 1rem 0 0 11%
+    }
+
+    .social-links {
+        width: 50px;
+        height: 220px;
+    }
+
+    .social-links img {
+        width: 35px;
     }
 }
 
@@ -375,6 +403,19 @@ label #cancel {
     .pic img {
         margin: 1rem 0 0 22%;
         max-width: 200px;
+    }
+
+    .social-links {
+        width: 40px;
+        height: 170px;
+    }
+
+    .social-links ul {
+        margin: 40px 7px;
+    }
+
+    .social-links img {
+        width: 25px;
     }
 }
 
@@ -416,6 +457,15 @@ label #cancel {
     .speech p {
         word-spacing: 0;
         font-size: 30px;
+    }
+
+    .social-links {
+        width: 30px;
+        height: 150px;
+    }
+
+    .social-links ul {
+        margin: 30px 2px;
     }
 
     @media (max-width: 375px) {
