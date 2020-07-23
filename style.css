@@ -254,6 +254,12 @@ label #cancel {
         line-height: 112px;
     }
 
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: #3c7cb2;
+    }
+
     nav ul {
         position: fixed;
         width: 100%;
